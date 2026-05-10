@@ -31,7 +31,7 @@ export function Contact() {
   const handleWhatsAppClick = () => {
     const phoneNumber = '966501234567'; // Replace with actual number
     const message = 'السلام عليكم، أرغب في الاستفسار عن دروس القرآن الكريم';
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/${+966502299115}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
 
@@ -39,13 +39,13 @@ export function Contact() {
     {
       icon: Mail,
       title: 'البريد الإلكتروني',
-      value: 'quran.teacher@example.com',
-      link: 'mailto:quran.teacher@example.com',
+      value: 'omamr_2011@hotmail.com',
+      link: 'mailto:omamr_2011@hotmail.com',
     },
     {
       icon: Phone,
       title: 'رقم الجوال (واتساب)',
-      value: '+966 50 123 4567',
+      value: '+966502299115',
       link: '#',
       onClick: handleWhatsAppClick,
     },
@@ -58,8 +58,8 @@ export function Contact() {
   ];
 
   const workingHours = [
-    { day: 'السبت - الخميس', hours: '9:00 صباحًا - 9:00 مساءً' },
-    { day: 'الجمعة', hours: '4:00 مساءً - 9:00 مساءً' },
+    { day: 'السبت - الخميس', hours: '9:00 صباحًا - 12:00 مساءً' },
+    { day: 'الجمعة', hours: '4:00 مساءً - 12:00 مساءً' },
   ];
 
   return (

@@ -65,11 +65,11 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-white/80">
                 <Mail className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span>quran.teacher@example.com</span>
+                <span>omamr_2011@hotmail.com</span>
               </li>
               <li className="flex items-start gap-2 text-white/80">
                 <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span dir="ltr">+966 50 123 4567</span>
+                <span dir="ltr">+966502299115</span>
               </li>
               <li className="flex items-start gap-2 text-white/80">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
